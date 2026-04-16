@@ -16,7 +16,7 @@ def get_connection():
         password=DB_PASS
     )
 
-@app.get("/")
+@app.get("/", response_class=HTMLResponse)
 def form():
     return """
     <html>
