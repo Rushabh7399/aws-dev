@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Form
+from fastapi import FastAPI, Form, HTMLResponse
 import psycopg2
 
 app = FastAPI()
